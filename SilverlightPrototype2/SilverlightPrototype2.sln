@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SilverlightPrototype2", "SilverlightPrototype2\SilverlightPrototype2.vbproj", "{f7458fdc-5117-4827-851f-0fb74630e297}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SilverlightPrototype2Screens", "SilverlightPrototype2\SilverlightPrototype2Screens\SilverlightPrototype2Screens.vbproj", "{180a64bd-a3f9-49d6-87cf-6c3cd71ceb74}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7458FDC-5117-4827-851F-0FB74630E297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7458FDC-5117-4827-851F-0FB74630E297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7458FDC-5117-4827-851F-0FB74630E297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7458FDC-5117-4827-851F-0FB74630E297}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180A64BD-A3F9-49D6-87CF-6C3CD71CEB74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180A64BD-A3F9-49D6-87CF-6C3CD71CEB74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180A64BD-A3F9-49D6-87CF-6C3CD71CEB74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180A64BD-A3F9-49D6-87CF-6C3CD71CEB74}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

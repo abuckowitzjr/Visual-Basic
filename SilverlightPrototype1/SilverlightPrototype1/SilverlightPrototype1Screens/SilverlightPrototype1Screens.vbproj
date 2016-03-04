@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ExpressionBlendVersion>4.0.20525.0</ExpressionBlendVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4a75439b-eca2-435f-b9dc-06065ac8318a}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>SilverlightPrototype1Screens</RootNamespace>
+    <AssemblyName>SilverlightPrototype1.Screens</AssemblyName>
+    <TargetFrameworkIdentifier>Silverlight</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>false</SilverlightApplication>
+    <ValidateXaml>true</ValidateXaml>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <Utf8Output>true</Utf8Output>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <MyType>Empty</MyType>
+    <OutputPath>..\Bin\Debug</OutputPath>
+    <DocumentationFile>SilverlightPrototype1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DefineConstants>SILVERLIGHT=1</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <Optimize>true</Optimize>
+    <OutputPath>..\Bin\Release</OutputPath>
+    <DocumentationFile>SilverlightPrototype1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <DefineConstants>SILVERLIGHT=1</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System.Windows" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Net" />
+    <Import Include="System.Xml" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Ink" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Animation" />
+    <Import Include="System.Windows.Shapes" />
+  </ItemGroup>
+  <PropertyGroup>
+    <ExpressionBlendPrototypingEnabled>true</ExpressionBlendPrototypingEnabled>
+    <ExpressionBlendPrototypeHarness>false</ExpressionBlendPrototypeHarness>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Controls" />
+    <Reference Include="System.Windows.Interactivity" />
+    <Reference Include="Microsoft.Expression.Interactions" />
+    <Reference Include="Microsoft.Expression.Prototyping.Interactivity" />
+    <Reference Include="Microsoft.Expression.Prototyping.Runtime" />
+    <Reference Include="Microsoft.Expression.Prototyping.SketchControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Screen_1.xaml.vb">
+      <DependentUpon>Screen_1.xaml</DependentUpon>
+    </Compile>
+    <Resource Include="Fonts\BuxtonSketch.ttf" />
+    <Resource Include="Fonts\SketchFlow Print.ttf" />
+    <Resource Include="Fonts\SegoeMarker.ttf" />
+    <Page Include="Screen_1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="SketchStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="..\My Project\Version.vb">
+      <Link>My Project\Version.vb</Link>
+    </Compile>
+    <Resource Include="Sketch.Flow" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	     Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>
