@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="VB" Debug="true" Service="ADV_VB_Quiz_2_Question_21.Service1" CodeBehind="MyShape.svc.vb" %>

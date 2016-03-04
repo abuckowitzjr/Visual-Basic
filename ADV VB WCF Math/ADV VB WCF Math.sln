@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ADV VB WCF Math", "ADV VB WCF Math\ADV VB WCF Math.vbproj", "{FFD351A3-CF22-4B69-81DB-92559D7DC658}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ADV VB WCFServiceApplication", "ADV VB WCFServiceApplication\ADV VB WCFServiceApplication.vbproj", "{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{FFD351A3-CF22-4B69-81DB-92559D7DC658}.Release|x86.ActiveCfg = Release|Any CPU
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Debug|x86.ActiveCfg = Debug|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Debug|x86.Build.0 = Debug|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Release|Any CPU.ActiveCfg = Release|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Release|Mixed Platforms.Build.0 = Release|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Release|x86.ActiveCfg = Release|x86
+		{E1845EC9-44FF-47F3-A47B-68D10EB3ACAE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
